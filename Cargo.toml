@@ -1,0 +1,11 @@
+[package]
+name = "rustpython"
+version = "0.1.0"
+authors = ["snowbg <snowbg@gmail.com>"]
+
+[dependencies]
+cpython="0.1.0"
+
+[lib]
+name = "example"
+crate-type = ["dylib"]
